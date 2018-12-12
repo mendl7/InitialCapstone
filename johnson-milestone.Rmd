@@ -13,7 +13,6 @@ library(ggplot2)
 library(dplyr)
 ```
 
-
 ## Background
 The goal of this report is to demonstrate that I have acquired and performed exploratory analysis of the training data that will eventually be used to create a predictive text algorithm. This data consists of English text from 3 different sources: Twitter, Blogs, and News. Since biases in training data will have significant impact on algorithm performance, it will be important for the final project to uncover major biases in the structure and makeup of these data sets. 
 
