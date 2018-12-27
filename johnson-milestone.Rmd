@@ -20,11 +20,11 @@ The goal of this report is to demonstrate that I have acquired and performed exp
 Initial attempt to load the data revealed premature end of file characters in the news data file. These were removed by hand using Windows Notepad find and replace functionality.
 ```{r DA1, cache=TRUE, warning=FALSE}
 # Open file connection to twitter dataset
-con1 <- file("C:/Users/Steve/Documents/RSaves/Capstone/Coursera-SwiftKey/final/en_US/en_US.twitter.txt", "r") 
+con1 <- file("C:/Users/Steve/Documents/GitRepos/InitialCapstone/Coursera-SwiftKey/final/en_US/en_US.twitter.txt", "r") 
 # Open file connection to blogs dataset
-con2 <- file("C:/Users/Steve/Documents/RSaves/Capstone/Coursera-SwiftKey/final/en_US/en_US.blogs.txt", "r") 
+con2 <- file("C:/Users/Steve/Documents/GitRepos/InitialCapstone/Coursera-SwiftKey/final/en_US/en_US.blogs.txt", "r") 
 # Open file connection to news dataset
-con3 <- file("C:/Users/Steve/Documents/RSaves/Capstone/Coursera-SwiftKey/final/en_US/en_US.news.txt", "r") 
+con3 <- file("C:/Users/Steve/Documents/GitRepos/InitialCapstone/Coursera-SwiftKey/final/en_US/en_US.news-editted.txt", "r") 
 
 data_twit<-readLines(con1,-1)
 close(con1) 
